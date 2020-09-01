@@ -1,0 +1,391 @@
+body{
+    font-family: Lato;
+    margin:0;
+    padding:0;
+    position: relative;
+    
+}
+
+
+
+/*Anfang Nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2%;
+    padding-left:3%;
+}
+
+nav button{
+    background: #01996D;
+border: 1px solid black;
+box-sizing: border-box;
+border-radius: 4px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+margin-top:2%;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 125% */
+padding: 10px 40px;
+
+text-align: center;
+color: #FFFFFF;
+
+}
+
+nav button:hover{
+    color: #01996D;
+    background: #FFFFFF;
+}
+
+nav ul {
+   list-style: none;
+   width: 400px;
+
+}
+
+nav ul li{
+    display: inline;
+    gap: 5%;
+}
+
+nav li a{
+    color:black;
+    text-decoration: none;
+    padding-right:8%;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+  margin-top:1.19%;
+}
+.btnnav{
+    width: 300px;
+}
+
+.btnnav a{
+    color:black;
+    text-decoration: none;
+    margin-right: 2%;
+
+
+}
+
+.btnnav a:hover{
+    color:black;
+    text-decoration: underline;
+
+}
+
+
+/*ende Nav*/
+
+.firstsec{
+
+
+background: url(firstbackground.png) center/cover no-repeat;
+height:100vh
+}
+
+.firstsec div{
+width: 44%;
+padding-left:5%;
+padding-top:15%;
+
+
+
+}
+
+.firstsec h1{
+    font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 65px;
+
+color: #01996D;
+}
+
+.firstsec p{
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+
+color: #484848;
+}
+
+.firstsec button{
+    background: #01996D;
+border: 1px solid black;
+box-sizing: border-box;
+border-radius: 4px;
+height: 28px;
+width:250px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+.secondsec{
+    display: flex;
+    justify-content: space-between;
+    padding-top:5%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:5%;
+    margin:0;
+    
+}
+
+.secondsec div{
+    
+    width:50%;
+}
+
+.secondsec h1{
+    font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+color: #01996D;
+margin: 0;
+}
+
+.secondsec div:last-of-type{
+    font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+margin-top:5%;
+margin: 0;
+
+}
+
+.thirdsec{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5%;
+   
+    padding-left:5%;
+   padding-right:5%;
+   padding-top:10%;
+}
+
+.thirdsec div img{
+    width:100%;
+    
+}
+
+/* .thirdsec div{
+    width: 28%;
+}
+
+.thirdsec div img{
+ width:90%;
+} */
+
+/* .thirdsec h1:first-of-type{
+    position:absolute;
+    bottom:35%;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 140px;
+margin:0;
+padding:0;
+text-align: center;
+
+color: rgba(1, 153, 109, 0.2);
+} */
+
+.thirdsec h1:first-of-type, .thirdsec h1:last-of-type{
+    position:absolute;
+    bottom:30%;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 140px;
+margin:0;
+padding:0;
+text-align: center;
+
+color: rgba(1, 153, 109, 0.2);
+}
+
+.thirdsec h2{
+    text-align: center;
+}
+
+.thirdsec h2:nth-of-type(2){
+    text-align: right;
+}
+
+
+
+.thirdsec p{
+    text-align: left;
+}
+
+.thirdsec div:nth-of-type(2){
+   margin-top:55%;
+
+}
+
+footer{
+    background:#245852;
+    height:60vh
+}
+
+.bold{
+    font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 55px;
+color: #FFFFFF;
+padding-top: 3%;
+}
+
+footer nav{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    text-decoration:none;
+    padding-bottom: 3%;
+    padding-left:5%;
+}
+
+footer li a{
+    text-decoration:none;
+    color: white;
+
+}
+
+footer a:hover{
+    text-decoration:underline;
+
+}
+
+
+
+.solutionsec{
+    display: flex;
+justify-content: space-between
+;}
+
+.solutionsec div img{
+    width:50%;
+    margin-top: 10%;
+    margin-bottom:10%;
+    margin-left: 34%;
+}
+
+.solutionsec button{
+    margin-top: 90%;
+    margin-bottom:10%;
+    margin-left: 54%;
+    background: #01996D;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    padding: 10px 40px;
+    
+    text-align: center;
+    color: #FFFFFF;
+    width:230px
+}
+
+.communitysec {
+    display:flex;
+    justify-content: space-between;
+    padding-right:5%;
+    padding-left: 5%;
+    padding-top:10%;
+    margin: 5%;
+    margin-left:15%;
+    height: 55vh;
+    
+}
+.communitysec div{
+    width: 50%
+}
+
+.communitysec div img{
+    width: 90%
+}
+
+.communitysec h5{
+    font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+margin:0;
+}
+.communitysec h1{
+    font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+color: #01996D;
+}
+
+.communitysec p{
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+}
+
+.communitysec button{
+    background: #01996D;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    padding: 10px 40px;
+    
+    text-align: center;
+    color: #FFFFFF;
+    width:230px
+}
+
+.cardimage{
+    position:absolute;
+    bottom:20%;
+}
+
+.four{
+    height: 80vh;
+}
+
+.four img{
+    width: 40%;
+    margin-left:30%;
+    margin-top: 15%;
+}
